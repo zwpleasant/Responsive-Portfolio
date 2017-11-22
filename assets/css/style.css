@@ -237,3 +237,29 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px){
+  .container {
+    width: 750px;
+  }
+  .main-section {
+    width: 60%;
+  }
+  .sidebar {
+    width: 35%;
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .work {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 640px){
+
+}
