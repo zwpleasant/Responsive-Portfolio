@@ -258,8 +258,50 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px){
+  .container {
+    width: 700px;
+  }
+  .main-section {
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+}
+  .auth-image {
+    width: 350px;
+    height: 275px;
+  }
+  .work {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 640px){
-
+  .container {
+    width: 600px;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  nav a {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .auth-image {
+    width: 100%;
+    height: auto;
+  }
+  .work {
+    width: 100%;
+    height: auto;
+  }
 }
